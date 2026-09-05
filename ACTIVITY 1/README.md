@@ -1,10 +1,5 @@
 # Activity 1: Presentation Design Principles
 
-## Objective
-Briefly describe the design principles applied in the presentation and explain how each principle improved clarity, engagement, and comprehension.
-
----
-
 ## Design Principles Applied
 
 ### Contrast
