@@ -27,13 +27,6 @@ What it is: Proximity groups related items together and separates unrelated item
 What I did: I grouped headings with their supporting bullets, placed captions next to images, and increased spacing between unrelated sections.
 How it improved the presentation: Proximity made relationships between ideas obvious, reduced visual clutter, and helped viewers quickly scan and understand the structure of each slide.
 
----
-
-## Other Supporting Principles (brief)
-- Hierarchy: Used size and weight to indicate importance (title > section header > body text).
-- White space: Gave elements breathing room to avoid clutter and emphasize key points.
-- Typography: Chose a legible sans-serif font and limited styles (regular, bold, italic) to maintain clarity.
-- Color harmony: Limited the palette to 2–3 main colors plus neutrals to keep the design cohesive.
 
 ---
 
