@@ -33,11 +33,3 @@ How it improved the presentation: Proximity made relationships between ideas obv
 ## Reflection
 Applying Contrast, Repetition, Alignment, and Proximity produced slides that were clearer, faster to read, and more visually appealing. The audience could focus on the main message without being distracted by inconsistent styling or clutter. For future presentations, I will prototype in a slide template (grid + defined styles) to maintain these principles from the start.
 
----
-
-## Quick checklist for future slides
-- Use a clear visual hierarchy for every slide (title, subheading, body).
-- Apply the same heading styles and accent color across slides (repetition).
-- Align text and visuals to a consistent grid (alignment).
-- Group related items and separate unrelated ones using spacing (proximity).
-- Ensure high contrast between text and background for readability.
