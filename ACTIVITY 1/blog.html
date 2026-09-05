@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Activity 1 — Presentation Design Principles (Blog)</title>
+  <meta name="description" content="Reflections on presentation design principles: Contrast, Repetition, Alignment, Proximity." />
+  <style>
+    :root{ --bg:#ffffff; --card:#ffffff; --ink:#0f1724; --muted:#6b7280; --accent:#0f62fe; --accent-2:#7c3aed; }
+    *{box-sizing:border-box}
+    body{margin:0; font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; color:var(--ink); background:linear-gradient(180deg,#fbfdff 0%, #f3f6ff 100%);}
+    .wrapper{max-width:900px; margin:48px auto; padding:24px;}
+    header.site{display:flex; gap:16px; align-items:center; margin-bottom:28px}
+    .logo{width:64px; height:64px; border-radius:10px; background:linear-gradient(135deg,var(--accent),var(--accent-2)); display:flex; align-items:center; justify-content:center; color:white; font-weight:700; font-size:18px}
+    h1{margin:0; font-size:2rem}
+    .byline{color:var(--muted); margin-top:6px}
+    nav.post-nav{display:flex; gap:12px; margin-bottom:20px}
+    nav.post-nav a{color:var(--accent); text-decoration:none; font-weight:600}
+    article.post{background:var(--card); padding:28px; border-radius:12px; box-shadow:0 8px 24px rgba(15,23,42,0.06);}
+    .lead{font-size:1.05rem; color:var(--muted); margin-bottom:18px}
+    h2{color:var(--accent); margin-top:18px}
+    h3{color:#111827; margin:10px 0}
+    p{line-height:1.6; color:var(--ink)}
+    .aside{margin-top:18px; padding:16px; background:#f8fafc; border-radius:8px; border:1px solid rgba(2,6,23,0.04); color:var(--muted)}
+    .tags{display:flex; gap:8px; margin-top:18px}
+    .tag{background:#eef2ff; color:var(--accent); padding:6px 10px; border-radius:999px; font-weight:600; font-size:0.9rem}
+    .footer{margin-top:28px; color:var(--muted); font-size:0.95rem}
+    .actions{display:flex; gap:8px; margin-top:18px}
+    .btn{background:transparent; border:1px solid rgba(15,23,42,0.06); padding:8px 12px; border-radius:8px; color:var(--accent); text-decoration:none}
+    @media (max-width:600px){.wrapper{margin:20px 16px; padding:16px}}
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="site">
+      <div class="logo">A1</div>
+      <div>
+        <h1>Presentation Design Principles</h1>
+        <div class="byline">Activity 1 • Author: videlacruz • <time datetime="2026-09-05">Sep 05, 2026</time></div>
+      </div>
+    </header>
+
+    <nav class="post-nav" aria-label="Post navigation">
+      <a href="./presentation.html">View as Slides →</a>
+      <a href="../README.md">Project README</a>
+    </nav>
+
+    <article class="post" itemscope itemtype="http://schema.org/Article">
+      <p class="lead">A short reflection on four core visual design principles — Contrast, Repetition, Alignment, and Proximity — and how applying them improved the clarity and effectiveness of a slide deck.</p>
+
+      <section>
+        <h2 id="contrast">Contrast</h2>
+        <h3>What it is</h3>
+        <p>Contrast is the use of differences (color, size, weight, shape) to make elements stand out.</p>
+
+        <h3>What I did</h3>
+        <p>I used a high-contrast color palette for headings and important callouts (dark text on a light background), increased font weight for titles, and enlarged key figures.</p>
+
+        <h3>How it improved the presentation</h3>
+        <p>Contrast made the hierarchy of information clear at a glance. Viewers could immediately identify headings, important statistics, and next steps, which reduced cognitive load and improved retention.</p>
+
+        <div class="aside">
+          Design tip: Use contrast to establish hierarchy — make primary actions stand out and reserve accent colors for emphasis.
+        </div>
+      </section>
+
+      <section>
+        <h2 id="repetition">Repetition</h2>
+        <h3>What it is</h3>
+        <p>Repetition is the consistent reuse of visual elements (colors, fonts, icons, spacing) to create cohesion.</p>
+
+        <h3>What I did</h3>
+        <p>I applied the same heading styles, bullet icon, and color accents throughout the slides and repeated a single layout pattern for content + image slides.</p>
+
+        <h3>How it improved the presentation</h3>
+        <p>Repetition created a consistent visual rhythm that helped the audience know what to expect. It strengthened branding and made navigation through the slides feel smooth and intentional.</p>
+
+        <div class="aside">
+          Design tip: Define a short style guide (color, type, spacing) and apply it — consistency saves time and reduces viewer friction.
+        </div>
+      </section>
+
+      <section>
+        <h2 id="alignment">Alignment</h2>
+        <h3>What it is</h3>
+        <p>Alignment is arranging elements so their edges or centers line up, creating an invisible grid that organizes content.</p>
+
+        <h3>What I did</h3>
+        <p>I aligned all text blocks and images to a common grid, used consistent left margins for paragraphs and bullets, and centered only elements that needed emphasis.</p>
+
+        <h3>How it improved the presentation</h3>
+        <p>Good alignment made slides look neat and professional, improved readability by creating clear reading paths, and made comparisons between elements simpler for the audience.</p>
+
+        <div class="aside">
+          Design tip: Use grid guides when creating slides. Aligned content is perceived as more credible and easier to follow.
+        </div>
+      </section>
+
+      <section>
+        <h2 id="proximity">Proximity</h2>
+        <h3>What it is</h3>
+        <p>Proximity groups related items together and separates unrelated items to communicate relationships.</p>
+
+        <h3>What I did</h3>
+        <p>I grouped headings with their supporting bullets, placed captions next to images, and increased spacing between unrelated sections.</p>
+
+        <h3>How it improved the presentation</h3>
+        <p>Proximity made relationships between ideas obvious, reduced visual clutter, and helped viewers quickly scan and understand the structure of each slide.</p>
+
+        <div class="aside">
+          Design tip: Organize by function — group headings, supporting points, and visuals so each group is read as one unit.
+        </div>
+      </section>
+
+      <section>
+        <h2 id="reflection">Reflection</h2>
+        <p>Applying Contrast, Repetition, Alignment, and Proximity produced slides that were clearer, faster to read, and more visually appealing. The audience could focus on the main message without being distracted by inconsistent styling or clutter. For future presentations, I will prototype in a slide template (grid + defined styles) to maintain these principles from the start.</p>
+      </section>
+
+      <div class="tags" aria-hidden="true">
+        <span class="tag">Design</span>
+        <span class="tag">Presentation</span>
+        <span class="tag">UX</span>
+      </div>
+
+      <div class="actions">
+        <a class="btn" href="#contrast">Jump to Contrast</a>
+        <a class="btn" href="#repetition">Jump to Repetition</a>
+        <a class="btn" href="#reflection">Reflection</a>
+      </div>
+
+      <footer class="footer">
+        <p>Published: <time datetime="2026-09-05">Sep 05, 2026</time> • License: CC BY-NC-SA</p>
+      </footer>
+    </article>
+
+  </div>
+</body>
+</html>
