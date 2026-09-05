@@ -1,16 +1,3 @@
----
-title: "Presentation Design Principles"
-date: 2026-09-05
-author: "videlacruz"
-layout: post
-tags: [Design, Presentation, UX]
-excerpt: "A short reflection on four core visual design principles — Contrast, Repetition, Alignment, and Proximity."
----
-
-A short reflection on four core visual design principles — Contrast, Repetition, Alignment, and Proximity — and how applying them improved the clarity and effectiveness of a slide deck.
-
-[View as slides](./presentation.html)
-
 ## Contrast
 
 **What it is**  
@@ -74,7 +61,3 @@ Proximity made relationships between ideas obvious, reduced visual clutter, and 
 ## Reflection
 
 Applying Contrast, Repetition, Alignment, and Proximity produced slides that were clearer, faster to read, and more visually appealing. The audience could focus on the main message without being distracted by inconsistent styling or clutter. For future presentations, I will prototype in a slide template (grid + defined styles) to maintain these principles from the start.
-
----
-
-Tags: Design, Presentation, UX
