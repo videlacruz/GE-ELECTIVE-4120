@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Activity 1 — Presentation Design Principles</title>
+  <style>
+    :root{
+      --bg:#f7f7fb;
+      --card:#ffffff;
+      --ink:#111827;
+      --accent:#0f62fe;
+      --muted:#6b7280;
+      --max-width:1100px;
+    }
+    html,body{height:100%;}
+    body{
+      margin:0; font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background:linear-gradient(180deg, var(--bg), #eef2ff);
+      color:var(--ink);
+      display:flex; align-items:center; justify-content:center; padding:32px;
+    }
+    .deck{
+      width:100%; max-width:var(--max-width); height:78vh; background:var(--card); border-radius:12px; box-shadow:0 10px 30px rgba(2,6,23,0.08);
+      overflow:hidden; position:relative; display:flex; align-items:center; justify-content:center;
+    }
+    .slides{width:100%; height:100%; position:relative;}
+    .slide{
+      position:absolute; inset:0; padding:48px; box-sizing:border-box; display:none; flex-direction:column; gap:18px; overflow:auto;
+    }
+    .slide.active{display:flex;}
+    .title{font-size:2rem; font-weight:700; color:var(--accent);}
+    .subtitle{font-size:1rem; color:var(--muted);}
+    h2{margin:0; font-size:1.25rem; font-weight:700;}
+    h3{margin:0; font-size:1rem; color:var(--accent);}
+    p{margin:0; color:var(--ink); line-height:1.45}
+    .content{display:grid; grid-template-columns:1fr; gap:18px; align-items:start;}
+    .two-col{display:grid; grid-template-columns:1fr 360px; gap:28px; align-items:start;}
+    .card{background:#f8fafc; padding:16px; border-radius:8px; border:1px solid rgba(15,40,90,0.03)}
+    .meta{font-size:0.9rem; color:var(--muted)}
+
+    /* navigation */
+    .nav{position:absolute; bottom:18px; left:18px; display:flex; gap:8px; align-items:center}
+    .nav button{background:transparent; border:1px solid rgba(2,6,23,0.06); padding:8px 12px; border-radius:8px; cursor:pointer}
+    .progress{position:absolute; bottom:18px; right:18px; font-size:0.9rem; color:var(--muted)}
+
+    /* responsive tweaks */
+    @media (max-width:900px){
+      .two-col{grid-template-columns:1fr;}
+      .title{font-size:1.6rem}
+    }
+    /* print-friendly */
+    @media print{ body{padding:0} .deck{box-shadow:none} .nav,.progress{display:none} }
+
+  </style>
+</head>
+<body>
+  <div class="deck" role="region" aria-label="Activity 1 slides">
+    <div class="slides">
+      <section class="slide active" data-index="0">
+        <div>
+          <div class="title">Activity 1: Presentation Design Principles</div>
+          <div class="subtitle">Contrast • Repetition • Alignment • Proximity</div>
+        </div>
+        <div style="flex:1"></div>
+        <div class="meta">Use ← → or click/tap to navigate • Press F to toggle fullscreen</div>
+      </section>
+
+      <section class="slide" data-index="1">
+        <div class="two-col">
+          <div>
+            <h2>Contrast</h2>
+            <div class="card">
+              <h3>What it is</h3>
+              <p>Contrast is the use of differences (color, size, weight, shape) to make elements stand out.</p>
+            </div>
+
+            <div style="height:12px"></div>
+
+            <div class="card">
+              <h3>What I did</h3>
+              <p>I used a high-contrast color palette for headings and important callouts (dark text on a light background), increased font weight for titles, and enlarged key figures.</p>
+            </div>
+
+            <div style="height:12px"></div>
+
+            <div class="card">
+              <h3>How it improved the presentation</h3>
+              <p>Contrast made the hierarchy of information clear at a glance. Viewers could immediately identify headings, important statistics, and next steps, which reduced cognitive load and improved retention.</p>
+            </div>
+          </div>
+
+          <aside class="card" aria-hidden="true">
+            <strong>Design tip</strong>
+            <p class="meta">Use contrast for hierarchy — not just decoration. Reserve accent colors for key actions or facts.</p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="slide" data-index="2">
+        <div class="two-col">
+          <div>
+            <h2>Repetition</h2>
+            <div class="card">
+              <h3>What it is</h3>
+              <p>Repetition is the consistent reuse of visual elements (colors, fonts, icons, spacing) to create cohesion.</p>
+            </div>
+
+            <div style="height:12px"></div>
+
+            <div class="card">
+              <h3>What I did</h3>
+              <p>I applied the same heading styles, bullet icon, and color accents throughout the slides and repeated a single layout pattern for content + image slides.</p>
+            </div>
+
+            <div style="height:12px"></div>
+
+            <div class="card">
+              <h3>How it improved the presentation</h3>
+              <p>Repetition created a consistent visual rhythm that helped the audience know what to expect. It strengthened branding and made navigation through the slides feel smooth and intentional.</p>
+            </div>
+          </div>
+
+          <aside class="card" aria-hidden="true">
+            <strong>Design tip</strong>
+            <p class="meta">Create a small set of rules (colors, fonts, spacing) and apply them consistently to speed up slide creation.</p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="slide" data-index="3">
+        <div class="two-col">
+          <div>
+            <h2>Alignment</h2>
+            <div class="card">
+              <h3>What it is</h3>
+              <p>Alignment is arranging elements so their edges or centers line up, creating an invisible grid that organizes content.</p>
+            </div>
+
+            <div style="height:12px"></div>
+
+            <div class="card">
+              <h3>What I did</h3>
+              <p>I aligned all text blocks and images to a common grid, used consistent left margins for paragraphs and bullets, and centered only elements that needed emphasis.</p>
+            </div>
+
+            <div style="height:12px"></div>
+
+            <div class="card">
+              <h3>How it improved the presentation</h3>
+              <p>Good alignment made slides look neat and professional, improved readability by creating clear reading paths, and made comparisons between elements simpler for the audience.</p>
+            </div>
+          </div>
+
+          <aside class="card" aria-hidden="true">
+            <strong>Design tip</strong>
+            <p class="meta">Use guides or a grid when building slides — consistent alignment is perceived as more credible.</p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="slide" data-index="4">
+        <div class="two-col">
+          <div>
+            <h2>Proximity</h2>
+            <div class="card">
+              <h3>What it is</h3>
+              <p>Proximity groups related items together and separates unrelated items to communicate relationships.</p>
+            </div>
+
+            <div style="height:12px"></div>
+
+            <div class="card">
+              <h3>What I did</h3>
+              <p>I grouped headings with their supporting bullets, placed captions next to images, and increased spacing between unrelated sections.</p>
+            </div>
+
+            <div style="height:12px"></div>
+
+            <div class="card">
+              <h3>How it improved the presentation</h3>
+              <p>Proximity made relationships between ideas obvious, reduced visual clutter, and helped viewers quickly scan and understand the structure of each slide.</p>
+            </div>
+          </div>
+
+          <aside class="card" aria-hidden="true">
+            <strong>Design tip</strong>
+            <p class="meta">Group by function — headings, supporting points, and images should feel like a single unit.</p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="slide" data-index="5">
+        <div>
+          <h2>Reflection</h2>
+          <div class="card">
+            <p>Applying Contrast, Repetition, Alignment, and Proximity produced slides that were clearer, faster to read, and more visually appealing. The audience could focus on the main message without being distracted by inconsistent styling or clutter. For future presentations, I will prototype in a slide template (grid + defined styles) to maintain these principles from the start.</p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <div class="nav" aria-hidden="true">
+      <button id="prev">← Prev</button>
+      <button id="next">Next →</button>
+      <button id="fullscreen">⤢ Fullscreen</button>
+    </div>
+    <div class="progress" id="progress">1 / 6</div>
+  </div>
+
+  <script>
+    (function(){
+      const slides = Array.from(document.querySelectorAll('.slide'));
+      let index = 0;
+      const total = slides.length;
+      const progress = document.getElementById('progress');
+
+      function show(i){
+        slides.forEach(s=>s.classList.remove('active'));
+        slides[i].classList.add('active');
+        index = i;
+        progress.textContent = (i+1) + ' / ' + total;
+      }
+
+      function next(){ show((index+1)%total); }
+      function prev(){ show((index-1+total)%total); }
+
+      document.getElementById('next').addEventListener('click', next);
+      document.getElementById('prev').addEventListener('click', prev);
+      document.getElementById('fullscreen').addEventListener('click', ()=>{
+        if(!document.fullscreenElement) document.documentElement.requestFullscreen(); else document.exitFullscreen();
+      });
+
+      // keyboard
+      document.addEventListener('keydown', (e)=>{
+        if(e.key === 'ArrowRight') next();
+        if(e.key === 'ArrowLeft') prev();
+        if(e.key === 'f' || e.key === 'F'){
+          if(!document.fullscreenElement) document.documentElement.requestFullscreen(); else document.exitFullscreen();
+        }
+      });
+
+      // click to advance on slide area
+      document.querySelector('.deck').addEventListener('click', (e)=>{
+        // ignore clicks on buttons
+        if(e.target.tagName === 'BUTTON' || e.target.closest('button')) return;
+        // advance if click on right half; go back if left half
+        const rect = e.currentTarget.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        if(x > rect.width/2) next(); else prev();
+      });
+
+      // touch swipe
+      let startX = null;
+      document.querySelector('.deck').addEventListener('touchstart', (e)=>{ startX = e.touches[0].clientX; });
+      document.querySelector('.deck').addEventListener('touchend', (e)=>{ if(startX===null) return; const dx = (e.changedTouches[0].clientX - startX); if(dx < -40) next(); if(dx > 40) prev(); startX=null; });
+
+      // initial
+      show(0);
+    })();
+  </script>
+</body>
+</html>
