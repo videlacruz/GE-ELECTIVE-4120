@@ -36,17 +36,8 @@ Throughout this course, I gained experience and developed skills in:
 
 ## My Activities
 
-Below are the activities I completed throughout the course. Each activity has its own folder containing the corresponding outputs and documentation.
+The folders at the top are the activities I completed throughout the course. Each activity has its own folder containing the corresponding outputs and documentation.
 
-| Activity | Description |
-|---|---|
-| [Activity 1](./Activity-1/) | First course activity and corresponding outputs |
-| [Activity 2](./Activity-2/) | Second course activity and corresponding outputs |
-| [Activity 3](./Activity-3/) | Third course activity and corresponding outputs |
-| [Activity 4](./Activity-4/) | Fourth course activity and corresponding outputs |
-| [Activity 5](./Activity-5/) | Fifth course activity and corresponding outputs |
-| [Activity 6](./Activity-6/) | Sixth course activity and corresponding outputs |
-| [Activity 7](./Activity-7/) | Seventh course activity and corresponding outputs |
 
 ## Learning Journey
 
