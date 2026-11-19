@@ -2,9 +2,6 @@
 # GE-ELECTIVE-4120
 ## Digital Portfolio | Finals Project
 
-<p align="center">
-  <img src="profile.jpg" alt="Profile Photo" width="180">
-</p>
 
 <h1 align="center">Hello, World! 👋</h1>
 
