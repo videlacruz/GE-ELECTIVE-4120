@@ -1,122 +1,103 @@
+
 # GE-ELECTIVE-4120
+## Digital Portfolio | Finals Project
 
-**HELLO WORLD**
+<p align="center">
+  <img src="profile.jpg" alt="Profile Photo" width="180">
+</p>
 
-### Organization Strategy
+<h1 align="center">Hello, World! 👋</h1>
 
-**By Activity Number**
-- Each activity has its own folder (ACTIVITY 1, ACTIVITY 2, etc.)
-- Easy to scale as more assignments are completed
-- Instructor can quickly locate specific work
-
-**README files for Context**
-- Main README.md serves as portfolio overview and navigation
-- Each ACTIVITY folder contains its own README.md with:
-  - Activity title and objectives
-  - Key concepts covered
-  - Deliverables and outputs
-  - Design process and creative decisions
-  - Reflection and learning outcomes
-
-**Consistent Naming Conventions**
-- Folders: ACTIVITY # (uppercase, clear numbering)
-- Files: Descriptive names with file extensions (.md, .pdf, .png, etc.)
-- READMEs: Always included for context and navigation
-
-### Upload Process
-
-1. **Via GitHub Web Interface**: Dragged and dropped files directly into the repository
-2. **Organized by Activity**: Created folders for each activity first, then added files
-3. **Committed with Messages**: Each upload included clear commit messages describing the changes
-4. **Regular Updates**: Pushed new work as activities were completed throughout the semester
+<p align="center">
+  <b>Welcome to my GE 4120 Digital Portfolio!</b>
+</p>
 
 ---
 
-## 3. Making the Portfolio Accessible & Presentable
+## About Me
 
-### Accessibility Features
+Hi! I am **Veronique Mariella I. Dela Cruz**, a fourth-year Bachelor of Science in Nursing (BSN) student at **Ateneo de Davao University**.
 
-#### Navigation & Structure
-- **Clear hierarchy**: Main README links to individual activities
-- **Folder organization**: Logical grouping makes browsing intuitive
-- **Descriptive filenames**: Users understand content at a glance
+I created this repository as part of my GE-ELECTIVE-4120 course requirements. This digital portfolio contains the activities, projects, and outputs I completed throughout the semester.
 
-#### Documentation Quality
-- **Comprehensive README files**: Each activity explained with:
-  - Introduction and context
-  - Problem statements
-  - Solution approaches
-  - Design decisions and rationale
-  - Visual descriptions (since images may not render in preview)
-  
-#### Formatting & Readability
-- **Markdown formatting**: Used headers, lists, and emphasis for scannability
-- **Line breaks and spacing**: Proper spacing between sections for readability
-- **Code blocks**: Used for code snippets and technical content with proper syntax highlighting
+As a nursing student, I am interested in healthcare, technology, digital innovation, and creative ways of presenting information. I believe that learning technological skills can help improve communication, organization, and efficiency in both academic and professional settings.
 
-#### Visual Presentation
-- **Consistent styling**: Uniform formatting across all README files
-- **Emoji and icons**: Used sparingly to enhance visual organization (headers, lists)
-- **Structured layouts**: Consistent sections (Introduction, Design Concept, Creative Process, Conclusion)
+## Skills and Tools Learned
 
-### Portfolio Presentation Strategy
+Throughout this course, I gained experience and developed skills in:
 
-**For Instructors:**
-- Clean, organized structure showing systematic approach to coursework
-- Documentation demonstrating understanding and reflection
-- Evidence of iterative design process and creative thinking
+- **GitHub** – Creating and managing repositories.
+- **Markdown** – Writing and formatting documentation.
+- **HTML** – Understanding basic webpage structures and elements.
+- **File Organization** – Organizing activities and project files.
+- **Version Control** – Understanding commits and tracking changes.
+- **Digital Portfolio Development** – Presenting academic outputs in an organized online platform.
+- **Problem-Solving** – Identifying technical challenges and finding solutions.
 
-**For Peers/Reviewers:**
-- Public accessibility allows easy sharing
-- Portfolio demonstrates course competencies
-- Can serve as reference for similar coursework
+## My Activities
 
-**For Self-Documentation:**
-- Serves as learning journal and reference material
-- Reflects on design decisions and creative choices
-- Tracks progress through the semester
+Below are the activities I completed throughout the course. Each activity has its own folder containing the corresponding outputs and documentation.
+
+| Activity | Description |
+|---|---|
+| [Activity 1](./Activity-1/) | First course activity and corresponding outputs |
+| [Activity 2](./Activity-2/) | Second course activity and corresponding outputs |
+| [Activity 3](./Activity-3/) | Third course activity and corresponding outputs |
+| [Activity 4](./Activity-4/) | Fourth course activity and corresponding outputs |
+| [Activity 5](./Activity-5/) | Fifth course activity and corresponding outputs |
+| [Activity 6](./Activity-6/) | Sixth course activity and corresponding outputs |
+| [Activity 7](./Activity-7/) | Seventh course activity and corresponding outputs |
+
+## Learning Journey
+
+Throughout GE-ELECTIVE-4120, I learned how technology can be used to organize, develop, and present digital outputs. At first, working with GitHub and understanding its features was challenging because I was unfamiliar with repository management, Markdown, and version control.
+
+Through practice and class discussions, I gradually became more comfortable navigating GitHub, uploading files, organizing folders, and documenting my work. These experiences helped me become more independent and confident in using digital tools.
+
+Moving forward, I hope to continue improving my technological skills and apply what I have learned to my future academic activities and professional career, especially in the field of healthcare.
+
+## Repository Structure
+
+```text
+GE-ELECTIVE-4120/
+│
+├── README.md
+│
+├── Activity-1/
+│   ├── README.md
+│   └── activity-1-files
+│
+├── Activity-2/
+│   ├── README.md
+│   └── activity-2-files
+│
+├── Activity-3/
+│   ├── README.md
+│   └── activity-3-files
+│
+├── Activity-4/
+│   ├── README.md
+│   └── activity-4-files
+│
+├── Activity-5/
+│   ├── README.md
+│   └── activity-5-files
+│
+├── Activity-6/
+│   ├── README.md
+│   └── activity-6-files
+│
+└── Activity-7/
+    ├── README.md
+    └── activity-7-files
+```
 
 ---
 
-## 4. Challenges Encountered & Solutions
-
-### Challenge 1: Initial Confusion About GitHub's Purpose & Workflow
-
-**Problem:**
-- Unfamiliar with Git/GitHub version control concepts
-- Unclear how to structure a portfolio on GitHub (vs. traditional file storage)
-- Didn't understand commit messages, branches, or repository management
-
-**Solution:**
-- **Attended class instruction**: Professor provided hands-on guidance on GitHub fundamentals
-- **Learned Git basics**: Understood commits as snapshots of changes, not just "uploads"
-- **Practiced with simple repositories first**: Started with basic files to build confidence
-- **Asked questions in class**: Clarified confusion about branching, merging, and collaborative workflows
-
-### Challenge 2: Organizing Activities Without Clear Structure
-
-**Problem:**
-- Initially unsure how to organize multiple activities and outputs
-- Wasn't sure whether to use branches or folders
-- Lacked clarity on documentation standards
-
-**Solution:**
-- **Adopted a folder-based organization**: ACTIVITY # folders are intuitive and don't require branch knowledge
-- **Created activity-specific READMEs**: Learned that each folder should have documentation
-- **Followed course structure**: Used the activity numbering from the syllabus
-- **Iterated as you learned**: Started simple, added more documentation as comfort level increased
----
-
-## Conclusion
-
-The journey from **initial confusion to a well-organized, presentable GitHub portfolio** demonstrates the value of structured learning and hands-on practice. What initially seemed complicated—version control, repository management, and portfolio presentation—became manageable through:
-
-1. **Clear instruction** from the professor
-2. **Incremental learning** starting with basics
-3. **Systematic organization** from the beginning
-4. **Regular documentation** and reflection
-5. **Willingness to ask questions** and seek feedback
-
-This repository now serves as a comprehensive digital portfolio showcasing coursework, design thinking, and professional communication skills. The organized structure, clear documentation, and iterative approach demonstrate both technical competency and thoughtful project management.
-
-
+<p align="center">
+  <b>Thank you for visiting my digital portfolio!</b>
+  <br>
+  GE-ELECTIVE-4120 | Finals Project
+  <br>
+  Ateneo de Davao University
+</p>
