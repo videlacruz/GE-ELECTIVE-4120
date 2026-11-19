@@ -2,6 +2,10 @@
 # GE-ELECTIVE-4120
 ## Digital Portfolio | Finals Project
 
+<p align="center">
+<img width="141" height="161" alt="image" src="https://github.com/user-attachments/assets/ffa1c328-270b-4317-ad75-2aa2faa6d964" />
+
+</p>
 
 <h1 align="center">Hello, World! 👋</h1>
 
